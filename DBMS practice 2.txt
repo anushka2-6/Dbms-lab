@@ -1,0 +1,35 @@
+1. create:
+
+create table students (prn int, name varchar2(20), m1 number, m2 number, m3 number);
+
+2. to see the attributes in the table or table structure;
+
+desc students #st_info is the table whose structure will be displayed
+
+3. insert data in the table
+
+insert into students values (101, 'xyz', 65, 75,85);
+
+4. add column to students:
+
+alter table students add total number;
+
+alter table students add perc number;
+
+INSERT INTO students VALUES (1, 'ABC', 78, 85, 90, 253);
+
+INSERT INTO students VALUES (2, 'STU', INSERT INTO students VALUES (3, 'PQR', 88, 79, 84, 251); 65, 78 , 72, 207);
+
+INSERT INTO students VALUES (4, 'XYZ', 92, 91, 89, 272);
+
+INSERT INTO students VALUES (5, 'LMN', 55, 60, 58, 173);
+
+INSERT INTO students VALUES (6, 'DEF', 81, 77, 80, 238);
+
+INSERT INTO students VALUES (7, 'GHI, 69, 73, 75, 217);
+
+INSERT INTO students VALUES (8, 'JKL', 90, 88, 93, 271);
+
+INSERT INTO students VALUES (9, 'MNO', 62, 68, 70, 200);
+
+INSERT INTO students VALUES (10, 'RST', 85, 82, 88, 255);
